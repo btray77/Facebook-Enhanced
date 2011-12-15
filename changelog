@@ -1,0 +1,23 @@
+================================
+========== Change Log ==========
+================================
+
+============ v1.0.2 ============
+# Upgraded the CodeIgniter to v2.1.0
+============ v1.0.1 ============
+# Upgraded the Facebook PHP SDK to v3.1.1
+# Updated CodeIgniter to v2.0.3
+# Added the ability to specify the global variable returned in from fb_get_app().
+# Added the choice of full facebook friends list or just friends who have app installed to fb_list_friends().
+# Added the ability to choose whether a user is redirected to the login page. Default is false.
+# Removed the fb_get_auth_scope() & fb_get_canvas() functions, due to being able to retrieve global vars from fb_get_app().
+============ v1.0.0 ============
+# Ported v1.0.5 of Facebook Ignited to Facebook Enhanced
+# Added extending permissions ability to fb_check_permission() function.
+# Added fb_create_event() function which allows you to create an event.
+# Added the ability to define scope in fb_login_url().
+# Added the support for Facebook Connect to Library while creating a config setting that decides what type to use.
+# Added Facebook register plugin support in fb_register_form() function to the Library, parses raw JSON or Array (
+  converts to JSON) and returns an iframe which the system then pulls up the form in. As well as JSON support, the 
+  fb_register_form() function can also take html attributes to modify the look of iframe.
+# Added fb_feed() function which allows for a non JavaScript method of publishing to a feed as well as deleting posts.
