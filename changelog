@@ -2,6 +2,8 @@
 ========== Change Log ==========
 ================================
 
+============ v1.0.3 ============
+# Removed the register form function because we can already use json_encode to do the same thing.
 ============ v1.0.2 ============
 # Upgraded the CodeIgniter to v2.1.0
 ============ v1.0.1 ============
