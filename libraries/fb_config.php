@@ -16,7 +16,7 @@ $config['fb_apptype']	= 'iframe';
 $config['fb_auth']		= '';
 
 /**
- * --- fb_apptype examples ---
+ * --- fb_appcanvas examples ---
  * iframe		your-facebook-namespace 
  * connect		www.your-connect-domain.com/subfolder/
  */
