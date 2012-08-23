@@ -14,3 +14,9 @@ $config['fb_secret']	= 'application secret';
 $config['fb_canvas']	= 'your-app-address-on-fb';
 $config['fb_apptype']	= 'iframe';
 $config['fb_auth']		= '';
+
+/**
+ * --- fb_apptype examples ---
+ * iframe		your-facebook-namespace 
+ * connect		www.your-connect-domain.com/subfolder/
+ */
